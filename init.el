@@ -101,3 +101,10 @@
 (global-set-key (kbd "C-c o i") 'helm-open-github-from-issues)
 
 
+;;
+;;theme
+;;
+(add-to-list 'custom-theme-load-path
+             (file-name-as-directory "~/.emacs.d/elisp/themes/"))
+;(load-theme 'charcoal-black t t)
+;(enable-theme 'charcoal-black)
